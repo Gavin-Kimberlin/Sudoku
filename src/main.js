@@ -20,6 +20,7 @@ $(document).ready(function () {
       event.preventDefault();
       console.log('working');
       let col1 = $('.column1').val();
+      console.log($('.column1').val());
       let col2 = $('.column2').val();
       let col3 = $('.column3').val();
       let col4 = $('.column4').val();
