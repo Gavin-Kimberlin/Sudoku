@@ -5,7 +5,7 @@ body {
 
 input {
   border: solid 2px red;
-  background-color:#7FDBFF; 
+  background-color:#7FDBFF;
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
@@ -24,10 +24,10 @@ td {
   border: solid 5px red;
 }
 
-.leftSide {
+/* .leftSide {
   border-right: solid 20px black;
 }
 
 .rightSide {
   border-left: solid 20px black;
-}
+} */
