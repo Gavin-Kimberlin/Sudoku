@@ -1,0 +1,33 @@
+body {
+    background-color: #7FDBFF;
+    /* border: dotted 5px blue; */
+}
+
+input {
+  border: solid 2px red;
+  background-color:#7FDBFF; 
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
+
+}
+
+
+td {
+  border: solid 1px black;
+  border-width: 2px;
+  padding: 25px;
+  width: 100px;
+}
+
+.gameboard {
+  border: solid 5px red;
+}
+
+.leftSide {
+  border-right: solid 20px black;
+}
+
+.rightSide {
+  border-left: solid 20px black;
+}
