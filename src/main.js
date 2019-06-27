@@ -1,11 +1,11 @@
+import { Sudoku } from './sudoku-logic.js';
 //require('exports-loader?file!./bootstrap/js/dist/.js')
 // import $ from 'jquery';
 // import 'bootstrap';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import './css/styles.css';
 //$(document).ready(function() {
-import { Sudoku } from './sudoku-logic.js';
-  
+
 //});
 // col1Arr.forEach(function (col1) {
 //   col1Arr.push(col1);
@@ -56,6 +56,19 @@ $(document).ready(function () {
     });
 
     console.log(col1Arr, col2Arr, col3Arr, col4Arr, col5Arr, col6Arr, col7Arr, col8Arr, col9Arr);
+    var row1 = [];
+
+    // .getRow();
+
+    // function () {
+    //   col[i].for(i = 0, i < 9, i++) {
+    //     if(i) {
+    //       row1.push(array?[i])
+    //     }
+    //     console.log(row1);
+    //
+    // }
+    // });
 
 
     // let col2 = $('.column2').val();
