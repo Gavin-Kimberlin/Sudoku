@@ -4,9 +4,8 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import './css/styles.css';
 //$(document).ready(function() {
-function Puzzle () {
-  this.column
-}
+import { Sudoku } from './sudoku-logic.js';
+  
 //});
 // col1Arr.forEach(function (col1) {
 //   col1Arr.push(col1);
@@ -56,7 +55,7 @@ $(document).ready(function () {
       col9Arr[i] = $(this).val();
     });
 
-    console.log(col2Arr);
+    console.log(col1Arr, col2Arr, col3Arr, col4Arr, col5Arr, col6Arr, col7Arr, col8Arr, col9Arr);
 
 
     // let col2 = $('.column2').val();
